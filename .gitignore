@@ -1,0 +1,44 @@
+# Kotlin Multiplatform / Android / iOS / Desktop / Web
+/.gradle
+**/build/
+build/
+local.properties
+/.idea/
+*.iml
+.DS_Store
+*.keystore
+*.jks
+.konan/
+# Android-specific
+**/app/build/
+**/androidApp/build/
+# iOS / Xcode
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/build/
+*.xcworkspace
+xcuserdata/
+# Firebase config (do NOT commit)
+GoogleService-Info.plist
+google-services.json
+# Kotlin/Native
+*.klib
+*.kexe
+# Node
+node_modules/
+# Gradle wrapper jar
+gradle/wrapper/gradle-wrapper.jar
+# IDE
+.vscode/
+# Logs and temp
+*.log
+tmp/
+# SQLDelight generated DBs
+**/sqldelight/databases/
+# macOS
+.DS_Store
+# Ignore local keystore config (if any)
+**/*.keystore
+**/*.jks
+
+# End of file

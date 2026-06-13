@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "project_name": "TasqCal",
+  "project_type": "kmp",
+  "platforms": [
+    "android",
+    "ios",
+    "shared"
+  ],
+  "build_systems": [
+    "gradle"
+  ],
+  "ui": [
+    "compose_multiplatform"
+  ],
+  "di": [],
+  "network": [
+    "ktor"
+  ],
+  "persistence": [],
+  "serialization": [],
+  "testing": [
+    "espresso",
+    "junit"
+  ],
+  "integrations": [],
+  "ci_cd": [],
+  "detected_files": {
+    "android_manifest": "app/androidApp/src/main/AndroidManifest.xml",
+    "settings_gradle": "settings.gradle.kts",
+    "xcodeproj": "app/iosApp/iosApp.xcodeproj",
+    "xcworkspace": "app/iosApp/iosApp.xcodeproj/project.xcworkspace"
+  },
+  "warnings": [],
+  "created_at": "2026-06-12T10:36:24Z",
+  "updated_at": "2026-06-12T10:36:24Z"
+}

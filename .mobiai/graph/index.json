@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-12T10:38:40.545775Z",
+  "root": "/Users/maasbodev/AndroidStudioProjects/TasqCal",
+  "files": [
+    {
+      "path": "app/androidApp/src/main/kotlin/com/maasbodev/tasqcal/MainActivity.kt",
+      "language": "kotlin",
+      "lines": 25,
+      "imports": [
+        "android.os.Bundle",
+        "androidx.activity.ComponentActivity",
+        "androidx.activity.compose.setContent",
+        "androidx.activity.enableEdgeToEdge",
+        "androidx.compose.runtime.Composable",
+        "androidx.compose.ui.tooling.preview.Preview"
+      ],
+      "symbols": [
+        {
+          "name": "MainActivity",
+          "kind": "class",
+          "line": 10
+        },
+        {
+          "name": "onCreate",
+          "kind": "fun",
+          "line": 11,
+          "container": "MainActivity",
+          "modifiers": [
+            "override"
+          ]
+        },
+        {
+          "name": "AppAndroidPreview",
+          "kind": "fun",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "path": "app/desktopApp/src/main/kotlin/com/maasbodev/tasqcal/main.kt",
+      "language": "kotlin",
+      "lines": 13,
+      "imports": [
+        "androidx.compose.ui.window.Window",
+        "androidx.compose.ui.window.application"
+      ],
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fun",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "path": "app/iosApp/iosApp/ContentView.swift",
+      "language": "swift",
+      "lines": 18,
+      "imports": [
+        "UIKit",
+        "SwiftUI",
+        "Shared"
+      ],
+      "symbols": [
+        {
+          "name": "ComposeView",
+          "kind": "struct",
+          "line": 5
+        },
+        {
+          "name": "makeUIViewController",
+          "kind": "func",
+          "line": 6,
+          "container": "ComposeView"
+        },
+        {
+          "name": "updateUIViewController",
+          "kind": "func",
+          "line": 10,
+          "container": "ComposeView"
+        },
+        {
+          "name": "ContentView",
+          "kind": "struct",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "path": "app/iosApp/iosApp/iOSApp.swift",
+      "language": "swift",
+      "lines": 10,
+      "imports": [
+        "SwiftUI"
+      ],
+      "symbols": [
+        {
+          "name": "iOSApp",
+          "kind": "struct",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/androidHostTest/kotlin/com/maasbodev/tasqcal/SharedLogicAndroidHostTest.kt",
+      "language": "kotlin",
+      "lines": 12,
+      "imports": [
+        "kotlin.test.Test",
+        "kotlin.test.assertEquals"
+      ],
+      "symbols": [
+        {
+          "name": "SharedLogicAndroidHostTest",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "example",
+          "kind": "fun",
+          "line": 9,
+          "container": "SharedLogicAndroidHostTest"
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/androidMain/kotlin/com/maasbodev/tasqcal/Platform.android.kt",
+      "language": "kotlin",
+      "lines": 9,
+      "imports": [
+        "android.os.Build"
+      ],
+      "symbols": [
+        {
+          "name": "AndroidPlatform",
+          "kind": "class",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/commonMain/kotlin/com/maasbodev/tasqcal/App.kt",
+      "language": "kotlin",
+      "lines": 49,
+      "imports": [
+        "androidx.compose.animation.AnimatedVisibility",
+        "androidx.compose.foundation.Image",
+        "androidx.compose.foundation.background",
+        "androidx.compose.foundation.layout.Column",
+        "androidx.compose.foundation.layout.fillMaxSize",
+        "androidx.compose.foundation.layout.fillMaxWidth",
+        "androidx.compose.foundation.layout.safeContentPadding",
+        "androidx.compose.material3.Button",
+        "androidx.compose.material3.MaterialTheme",
+        "androidx.compose.material3.Text",
+        "androidx.compose.runtime.*",
+        "androidx.compose.ui.Alignment",
+        "androidx.compose.ui.Modifier",
+        "androidx.compose.ui.tooling.preview.Preview",
+        "org.jetbrains.compose.resources.painterResource",
+        "tasqcal.app.shared.generated.resources.Res",
+        "tasqcal.app.shared.generated.resources.compose_multiplatform"
+      ],
+      "symbols": [
+        {
+          "name": "App",
+          "kind": "fun",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/commonMain/kotlin/com/maasbodev/tasqcal/Greeting.kt",
+      "language": "kotlin",
+      "lines": 9,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "Greeting",
+          "kind": "class",
+          "line": 3
+        },
+        {
+          "name": "greet",
+          "kind": "fun",
+          "line": 6,
+          "container": "Greeting"
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/commonMain/kotlin/com/maasbodev/tasqcal/Platform.kt",
+      "language": "kotlin",
+      "lines": 7,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "Platform",
+          "kind": "interface",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/commonTest/kotlin/com/maasbodev/tasqcal/SharedCommonTest.kt",
+      "language": "kotlin",
+      "lines": 12,
+      "imports": [
+        "kotlin.test.Test",
+        "kotlin.test.assertEquals"
+      ],
+      "symbols": [
+        {
+          "name": "SharedCommonTest",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "example",
+          "kind": "fun",
+          "line": 9,
+          "container": "SharedCommonTest"
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/iosMain/kotlin/com/maasbodev/tasqcal/MainViewController.kt",
+      "language": "kotlin",
+      "lines": 5,
+      "imports": [
+        "androidx.compose.ui.window.ComposeUIViewController"
+      ],
+      "symbols": [
+        {
+          "name": "MainViewController",
+          "kind": "fun",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/iosMain/kotlin/com/maasbodev/tasqcal/Platform.ios.kt",
+      "language": "kotlin",
+      "lines": 9,
+      "imports": [
+        "platform.UIKit.UIDevice"
+      ],
+      "symbols": [
+        {
+          "name": "IOSPlatform",
+          "kind": "class",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/iosTest/kotlin/com/maasbodev/tasqcal/SharedLogicIOSTest.kt",
+      "language": "kotlin",
+      "lines": 12,
+      "imports": [
+        "kotlin.test.Test",
+        "kotlin.test.assertEquals"
+      ],
+      "symbols": [
+        {
+          "name": "SharedLogicIOSTest",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "example",
+          "kind": "fun",
+          "line": 9,
+          "container": "SharedLogicIOSTest"
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/jsMain/kotlin/com/maasbodev/tasqcal/Platform.js.kt",
+      "language": "kotlin",
+      "lines": 14,
+      "imports": [
+        "web.navigator.navigator"
+      ],
+      "symbols": [
+        {
+          "name": "JsPlatform",
+          "kind": "class",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/jvmMain/kotlin/com/maasbodev/tasqcal/Platform.jvm.kt",
+      "language": "kotlin",
+      "lines": 7,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "JVMPlatform",
+          "kind": "class",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/jvmTest/kotlin/com/maasbodev/tasqcal/SharedLogicDesktopTest.kt",
+      "language": "kotlin",
+      "lines": 12,
+      "imports": [
+        "kotlin.test.Test",
+        "kotlin.test.assertEquals"
+      ],
+      "symbols": [
+        {
+          "name": "SharedLogicDesktopTest",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "example",
+          "kind": "fun",
+          "line": 9,
+          "container": "SharedLogicDesktopTest"
+        }
+      ]
+    },
+    {
+      "path": "app/shared/src/wasmJsMain/kotlin/com/maasbodev/tasqcal/Platform.wasmJs.kt",
+      "language": "kotlin",
+      "lines": 7,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "WasmPlatform",
+          "kind": "class",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "path": "app/webApp/src/webMain/kotlin/com/maasbodev/tasqcal/main.kt",
+      "language": "kotlin",
+      "lines": 11,
+      "imports": [
+        "androidx.compose.ui.ExperimentalComposeUiApi",
+        "androidx.compose.ui.window.ComposeViewport"
+      ],
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fun",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "path": "core/src/commonMain/kotlin/com/maasbodev/tasqcal/GreetingUtil.kt",
+      "language": "kotlin",
+      "lines": 4,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "sayHello",
+          "kind": "fun",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "path": "server/src/main/kotlin/com/maasbodev/tasqcal/Application.kt",
+      "language": "kotlin",
+      "lines": 20,
+      "imports": [
+        "io.ktor.server.application.*",
+        "io.ktor.server.engine.*",
+        "io.ktor.server.netty.*",
+        "io.ktor.server.response.*",
+        "io.ktor.server.routing.*"
+      ],
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fun",
+          "line": 9
+        },
+        {
+          "name": "module",
+          "kind": "fun",
+          "line": 14
+        }
+      ]
+    },
+    {
+      "path": "server/src/test/kotlin/com/maasbodev/tasqcal/ApplicationTest.kt",
+      "language": "kotlin",
+      "lines": 20,
+      "imports": [
+        "io.ktor.client.request.*",
+        "io.ktor.client.statement.*",
+        "io.ktor.http.*",
+        "io.ktor.server.testing.*",
+        "kotlin.test.*"
+      ],
+      "symbols": [
+        {
+          "name": "ApplicationTest",
+          "kind": "class",
+          "line": 9
+        },
+        {
+          "name": "testRoot",
+          "kind": "fun",
+          "line": 12,
+          "container": "ApplicationTest"
+        }
+      ]
+    }
+  ]
+}
