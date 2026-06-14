@@ -13,6 +13,7 @@ composeMultiplatform = "1.11.1"
 detekt = "1.23.8"
 firebase-bom = "34.14.1"
 firebase-kotlin-sdk = "2.4.0"
+google-services = "4.4.4"
 junit = "4.13.2"
 koin = "4.2.1"
 kotlin = "2.4.0"
@@ -94,6 +95,7 @@ androidMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library",
 composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+googleServicesPlugin = { id = "com.google.gms.google-services", version.ref = "google-services" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

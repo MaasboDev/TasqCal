@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.googleServicesPlugin)
 }
 
 kotlin {
@@ -14,6 +15,12 @@ kotlin {
 dependencies {
     implementation(projects.app.shared)
 
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.analytics.ktx)
+    implementation(libs.firebase.crashlytics.ktx)
+    implementation(libs.firebase.messaging.ktx)
     implementation(libs.androidx.activity.compose)
 
     implementation(libs.compose.uiToolingPreview)
