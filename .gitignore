@@ -1,44 +1,79 @@
 # Kotlin Multiplatform / Android / iOS / Desktop / Web
-/.gradle
+# Gradle / build
+.gradle/
 **/build/
 build/
-local.properties
+/.gradle
 /.idea/
 *.iml
-.DS_Store
-*.keystore
-*.jks
-.konan/
-# Android-specific
+local.properties
+
+# Android
 **/app/build/
 **/androidApp/build/
-# iOS / Xcode
-**/ios/Pods/
-**/ios/DerivedData/
-**/ios/build/
+**/app/**/build/
+
+# Kotlin/Native / KMP artifacts
+/.konan/
+**/*.klib
+**/*.kexe
+**/cinterop/
+**/linkdata/
+
+# Xcode / iOS
+# Ignore CocoaPods generated Pods directory
+app/iosApp/Pods/
+**/Pods/
+# Derived data & build products
+**/DerivedData/
+**/build/
+# Workspace (if you prefer to keep workspace, remove this line)
 *.xcworkspace
+# User data
 xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+# Xcode archives and dSYMs (committed dSYMs usually not needed)
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+# CocoaPods repos & specs cache
+~/.cocoapods/
+
 # Firebase config (do NOT commit)
+app/iosApp/GoogleService-Info.plist
 GoogleService-Info.plist
+app/google-services.json
 google-services.json
-# Kotlin/Native
-*.klib
-*.kexe
+
 # Node
 node_modules/
+
 # Gradle wrapper jar
 gradle/wrapper/gradle-wrapper.jar
+
 # IDE
 .vscode/
+.idea/
+
+# macOS
+.DS_Store
+
 # Logs and temp
 *.log
 tmp/
+
+# Files created by Xcode gen or tooling
+Pods/
+# Ignore Swift Package Manager artifacts
+.build/
+Packages/
+
 # SQLDelight generated DBs
 **/sqldelight/databases/
-# macOS
-.DS_Store
-# Ignore local keystore config (if any)
-**/*.keystore
-**/*.jks
+
+# Misc
+*.keystore
+*.jks
 
 # End of file
