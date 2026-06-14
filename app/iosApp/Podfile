@@ -1,0 +1,21 @@
+platform :ios, '14.0'
+use_frameworks! :linkage => :static
+
+target 'iosApp' do
+  # Firebase SDKs
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
+  pod 'FirebaseMessaging'
+
+  # Add other pods here if needed
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+    end
+  end
+end
