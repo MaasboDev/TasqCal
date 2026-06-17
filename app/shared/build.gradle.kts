@@ -61,18 +61,23 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
-             // GitLive Firebase (multiplatform)
-             implementation(libs.gitlive.firebase.auth)
-             implementation(libs.gitlive.firebase.firestore)
-             implementation(libs.gitlive.firebase.analytics)
-             implementation(libs.gitlive.firebase.crashlytics)
-             implementation(libs.gitlive.firebase.messaging)
         }
-        commonTest.dependencies {
-            implementation(libs.kotlin.test)
+        androidMain.dependencies {
+            implementation(libs.gitlive.firebase.auth)
+            implementation(libs.gitlive.firebase.firestore)
+            implementation(libs.gitlive.firebase.analytics)
+            // Crashlytics and Messaging are mobile-only; keep them in platform-specific source sets
+            implementation(libs.gitlive.firebase.crashlytics)
+            implementation(libs.gitlive.firebase.messaging)
         }
         jsMain.dependencies {
             implementation(libs.wrappers.browser)
+            implementation(libs.gitlive.firebase.auth)
+            implementation(libs.gitlive.firebase.firestore)
+            implementation(libs.gitlive.firebase.analytics)
+        }
+        commonTest.dependencies {
+            implementation(libs.kotlin.test)
         }
     }
 }
